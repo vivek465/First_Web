@@ -1,0 +1,93 @@
+
+.main,
+.smain {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50vh;
+  border-radius: 10px;
+  background-color: #d5dbe3;
+}
+
+.main .messageBox,
+.smain .messageBox {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 47vh;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  /* overflow-y: scroll; */
+}
+
+.main .messageBox p,
+.smain .messageBox p {
+  margin-top: 10px;
+  background-color: green;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.main .messageBox .senderMsg,
+.smain .messageBox .senderMsg {
+  width: fit-content;
+  background-color: #302f29;
+
+}
+
+.main .messageBox .myMsg,
+.smain .messageBox .myMsg {
+  justify-content: end;
+  margin-left: auto;
+}
+
+.main input,
+.smain input {
+  height: 34px;
+  width: 350px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 6px;
+  border-width: 1px;
+}
+
+.main img{
+  width: 40px;
+  height: 40px;
+  margin-bottom: -13px;
+  margin-left: -40px;
+}
+
+
+/* -----------------------------------------------for tick -------------------------------------------- */
+/* :root {
+  --borderWidth: 4px;
+  --height: 18px;
+  --width: 10px;
+  --borderColor: skyblue;
+}
+
+.tickCheck {
+  display: flex;
+  flex-direction: row;
+}
+
+.check {
+  display: inline-block;
+  transform: rotate(45deg);
+  height: var(--height);
+  width: var(--width);
+  border-bottom: var(--borderWidth) solid var(--borderColor);
+  border-right: var(--borderWidth) solid var(--borderColor);
+  margin-top: 18px;
+} */
+
+/* ------------------------------------------------------------------------------------------------------------ */
